@@ -1,10 +1,18 @@
-;(function($) {     
-   
+/*;(function(){
 
+  var unicornSVG = SVG('svg-body').size(500,500);
 
-})(jQuery);
+  jQuery.get('unicorn.svg', function(rawSvg) {
+    const svgContent = jQuery('svg', rawSvg);
+    unicornSVG.svg(svgContent.html());
+  }, 'xml');
 
-updatePathFill = function(fillColor, targetPath)
-{
-  $('#'+targetPath).attr('fill', '#'+fillColor);
-}
+  
+})(jQuery);*/
+  
+  
+  
+  updatePathFill = function(fillColor, targetPath)
+  {
+    jQuery('#'+targetPath).attr('fill', '#'+fillColor);
+  }
