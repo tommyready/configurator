@@ -1,4 +1,4 @@
-/*;(function(){
+;(function(){
 
   var unicornSVG = SVG('svg-body').size(500,500);
 
@@ -8,7 +8,7 @@
   }, 'xml');
 
   
-})(jQuery);*/
+})(jQuery);
   
   
   
